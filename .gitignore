@@ -1,0 +1,48 @@
+# See https://help.github.com/articles/ignoring-files/ for more about ignoring files.
+
+# dependencies
+/node_modules
+/.pnp
+.pnp.js
+
+# testing
+/coverage
+
+# production
+/build
+
+# app
+/public
+/frontend
+/src/Semantic.md
+/src/containers/Hermann Hesse, Siddhartha, eine indische Dichtung.js
+/src/constants/das-schloß_franz-kafka_de.jpg
+/src/constants/frequencyDictionaryFrench.html
+/src/constants/frequencyDictionaryFrench.json
+/src/constants/frequencyDictionarySpanish.html
+/src/constants/frequencyDictionarySpanish.json
+/src/constants/languageCodes.js
+/src/constants/languages.js
+/src/constants/unicode.txt
+/src/constants/words.txt
+/server/user
+/server/Language Learning App-4f2b4e601a3c.json
+/backend
+
+# misc
+*.env*
+.DS_Store
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+*.sublime-project
+*.sublime-workspace
+
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# backend
+# /backend/backendvenv
+__pycache__
